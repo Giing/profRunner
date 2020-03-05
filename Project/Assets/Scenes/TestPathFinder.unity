@@ -922,6 +922,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: prof
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6dfb8e5c990d9f849a1facf71f780412,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: -6057140222963153312, guid: 6dfb8e5c990d9f849a1facf71f780412,
         type: 3}
       propertyPath: m_Controller
@@ -1955,7 +1960,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -518, y: 244}
+  m_AnchoredPosition: {x: -345, y: 244}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1287446561
@@ -2470,11 +2475,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7659156169645959298, guid: b012cb10170ae654da1da38c07d10663,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.43
-      objectReference: {fileID: 0}
     - target: {fileID: 7659156169645959296, guid: b012cb10170ae654da1da38c07d10663,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2529,6 +2529,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659156169645959298, guid: b012cb10170ae654da1da38c07d10663,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.43
       objectReference: {fileID: 0}
     - target: {fileID: 1918194761, guid: b012cb10170ae654da1da38c07d10663, type: 3}
       propertyPath: m_LocalPosition.z

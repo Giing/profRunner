@@ -62,7 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EventSystemGameOver.cs" />
     <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\GetScore.cs" />
+    <Compile Include="Assets\ReloadScene.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -72,6 +75,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\AgentController.cs" />
+    <Compile Include="Assets\Scripts\AppQuit.cs" />
     <Compile Include="Assets\Scripts\CameraOnMouse.cs" />
     <Compile Include="Assets\Scripts\ColliderScript.cs" />
     <Compile Include="Assets\Scripts\CollisionDetector.cs" />

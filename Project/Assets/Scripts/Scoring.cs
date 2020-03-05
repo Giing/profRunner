@@ -17,5 +17,6 @@ public class Scoring : MonoBehaviour
     void addScore()
     {
         scoreText.text = "Score : " + score++;
+        PlayerPrefs.SetInt("PlayerScore", score);
     }
 }

@@ -14,7 +14,7 @@ public class CollisionDetector : MonoBehaviour
     {
         if(collision.gameObject.tag == "Runner")
         {
-            //SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("GameOver");
         }
         /*else if(collision.gameObject.tag == "SlowZone")
         {
